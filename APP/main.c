@@ -27,7 +27,7 @@ void main (void)
 		{
 			SSD_DisplayNumber(DIO_PORTC,i);
 			DIO_SetPinLevel(DIO_PORTA,DIO_PIN0,PIN_HIGH);
-			_delay_ms(500);
+			_delay_ms(1000);
 		}
 		SSD_DisplayNumber(DIO_PORTD,j);
 		}
@@ -40,7 +40,7 @@ void main (void)
 			{
 				SSD_DisplayNumber(DIO_PORTC,i);
 				DIO_SetPinLevel(DIO_PORTA,DIO_PIN1,PIN_HIGH);
-				_delay_ms(500);
+				_delay_ms(1000);
 			}
 			SSD_DisplayNumber(DIO_PORTD,j);
 			}
@@ -53,7 +53,7 @@ void main (void)
 			{
 			SSD_DisplayNumber(DIO_PORTC,i);
 			DIO_SetPinLevel(DIO_PORTA,DIO_PIN2,PIN_HIGH);
-			_delay_ms(500);
+			_delay_ms(1000);
 			}
 			SSD_DisplayNumber(DIO_PORTD,j);
 			}
